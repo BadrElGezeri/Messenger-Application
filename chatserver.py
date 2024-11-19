@@ -8,7 +8,7 @@ clients = []
 new = []
 tLock = threading.Lock()
 
-server_IP = ''  # Set server IP here
+server_IP = '127.0.0.1'  # Set server IP here
 
 db_filename = 'Chat-server.db'
 schema_filename = 'create_schema.sql'

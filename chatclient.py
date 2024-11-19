@@ -11,7 +11,7 @@ import sqlite3
 tLock = threading.Lock()
 LARGE_FONT = ("Verdana", 12)
 
-server_IP = ''  # Set server IP here
+server_IP = '127.0.0.1'  # Set server IP here
 
 db_filename = 'Chat-client.db'
 db_is_new = not os.path.exists(db_filename)
